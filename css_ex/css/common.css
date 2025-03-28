@@ -1,0 +1,47 @@
+/* 通用的代码 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a.hover{
+    color: #ff6708;
+}
+
+html{
+    color: #333;  /* 字体颜色 */
+    min-width: 1226px; /* 页面最小宽度 */
+    /* font-size: 14px; 页面默认字体大小 */
+    font: 14px/1.5 "Microsoft YaHei", "微软雅黑", "Arial", "Helvetica", sans-serif; /* 页面默认字体 */
+}
+
+/* 浮动 */
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+/*通用容器*/
+.container{
+    width: 1226px;
+    margin: 0 auto; /* 水平居中 */
+}

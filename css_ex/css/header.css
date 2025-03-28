@@ -1,0 +1,23 @@
+.header{
+    height: 100px;
+
+}
+
+.header-logo h1{
+    display: none;
+    
+}
+.header-logo{
+    margin-right: 172px;
+    margin-top: 22px;
+    background: url(../img/logo.png) ;
+    height: 56px;
+    width: 56px;
+}
+
+.header-menu a{
+    height: 100px;
+    line-height: 100px;
+    padding: 0 7px;
+    font-size: 18px;
+}

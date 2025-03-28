@@ -1,0 +1,69 @@
+.topnav{
+    background: #333; /* 背景颜色 */
+    height: 40px; /* 高度 */
+    color: #b0b0b0;  /* 字体颜色 */
+    font-size: 12px; /* 字体大小 */
+}
+
+.topnav-menu{
+    line-height: 40px; /* 行高  垂直居中*/
+}
+
+.topnav-menu a{
+    color: #b0b0b0;
+    text-decoration: none;
+    padding: 0 7px;
+    border-right: 1px solid  #424242;
+}
+
+.topnav-menu li:last-child a{
+    border-right: none; /* 最后一个元素右边框为0 */
+}
+
+.topnav-menu li:first-child a{ 
+    padding-left: 0; /* 第一个元素左边距为0 */
+}
+
+
+.topnav-menu a:hover{
+    color: #fff;
+}
+
+.topnav-car{
+    height: 40px;
+    width: 120px;
+    margin-left: 130px; /* 距离左边130px */
+    background: #424242;
+    position: relative; /* 相对定位 */
+}
+
+.topnav-car .topnav-link{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;     /* 文字居中 */
+    line-height: 40px;      /* 行高  垂直居中*/
+}
+
+.topnav-link{
+    margin-right: 3px;
+}
+
+.topnav-detail{
+    width : 320px;
+    height: 100px;
+    position: absolute;     /* 绝对定位 */
+    right: 0;
+    top: 40px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: center;
+    line-height: 100px;     /* 行高   等于高度时，垂直居中*/
+    display: none; /* 默认隐藏 */
+}
+
+.topnav-car:hover .topnav-detail{ /* 鼠标移入显示 */
+    display: block;
+    z-index: 999; /* 层级最高 */ 
+}
